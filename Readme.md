@@ -46,10 +46,10 @@ https://www.callicoder.com/spring-boot-websocket-chat-example/
 ## Uses Cases
 For those reading of you who simply want to know if you should choose WebSockets or REST for your next project, here’s a simple rule: if any of the following sounds like your application, then use WebSockets. If not, stick to traditional HTTP/REST requests:
 
-Real-time collaboration (Google Docs, Easybase)
-Social feeds (Twitter, Discord)
-Image/text chat (Messenger, Snapchat)
-Synchronizing across multiple sessions (Todoist, Dropbox)
-News/score updates (ESPN, CBS Sports)
-Multiplayer game (Lichess)
+* Real-time collaboration (Google Docs, Easybase)
+* Social feeds (Twitter, Discord)
+* Image/text chat (Messenger, Snapchat)
+* Synchronizing across multiple sessions (Todoist, Dropbox)
+* News/score updates (ESPN, CBS Sports)
+* Multiplayer game (Lichess)
 
