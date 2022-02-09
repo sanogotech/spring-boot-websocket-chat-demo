@@ -41,4 +41,5 @@ https://www.callicoder.com/spring-boot-websocket-chat-example/
 ##  Docs
 - https://blog.scaleway.com/iot-hub-what-use-case-for-websockets/
 - https://medium.com/ballerina-techblog/go-real-time-with-ballerina-websockets-58c40ac11d6
+- https://www.educba.com/mqtt-vs-websocket/
 
