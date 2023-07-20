@@ -55,7 +55,7 @@ For those reading of you who simply want to know if you should choose WebSockets
 
 ## STOMP 
 
-STOMP which stands for Simple Text Oriented Messaging Protocol is a sub protocol which runs on top of Websocket connections and is used for message exchanges between clients via an intermediate message broker.
+STOMP which stands for Simple/Streaming  Text Oriented Messaging Protocol is a sub protocol which runs on top of Websocket connections and is used for message exchanges between clients via an intermediate message broker.
 
 STOMP has client implementations in different languages such as in Javascript(stomp-js) and Java, to interact with a Springboot Server over websockets. Do go through this amazing article to understand how Springboot over websockets with STOMP works.
 
