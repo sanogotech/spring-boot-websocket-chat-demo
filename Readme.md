@@ -53,3 +53,38 @@ For those reading of you who simply want to know if you should choose WebSockets
 * News/score updates (ESPN, CBS Sports)
 * Multiplayer game (Lichess)
 
+## STOMP 
+
+STOMP which stands for Simple Text Oriented Messaging Protocol is a sub protocol which runs on top of Websocket connections and is used for message exchanges between clients via an intermediate message broker.
+
+STOMP has client implementations in different languages such as in Javascript(stomp-js) and Java, to interact with a Springboot Server over websockets. Do go through this amazing article to understand how Springboot over websockets with STOMP works.
+
+Now let us go over building a python client with the required springboot server configurations for interactions between the two.
+
+
+
+# RabbitMQ docker image with STOMP plugin enable
+
+[![ci](https://github.com/quangthe/docker-rabbitmq-stomp/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/quangthe/docker-rabbitmq-stomp/actions/workflows/docker-publish.yml)
+[![Docker Stars](https://img.shields.io/docker/stars/pcloud/rabbitmq-stomp.svg?style=flat)](https://hub.docker.com/r/pcloud/rabbitmq-stomp/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/pcloud/rabbitmq-stomp.svg?style=flat)](https://hub.docker.com/r/pcloud/rabbitmq-stomp/)
+
+Check image tags on [DockerHub](https://hub.docker.com/repository/docker/pcloud/rabbitmq-stomp/tags)
+
+## Quick start
+
+```
+docker pull pcloud/rabbitmq-stomp
+
+docker container run -it --name rabbitmq-stomp -p 15672:15672 -p 5672:5672 -p 61613:61613 pcloud/rabbitmq-stomp
+```
+
+- RabbitMQ Web UI: [localhost:15672](http://localhost:15672)
+- Credential RabbitMQ: `admin/admin`
+- Credential STOMP: `admin/admin`
+
+### Exposed ports
+
+- `5672`: Default port of RabbitMQ
+- `15672`: RabbitMQ Web UI
+- `61613`: STOMP port
