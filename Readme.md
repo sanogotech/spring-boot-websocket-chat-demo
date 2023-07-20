@@ -61,6 +61,8 @@ STOMP has client implementations in different languages such as in Javascript(st
 
 Now let us go over building a python client with the required springboot server configurations for interactions between the two.
 
+* https://srinivas1996kumar.medium.com/a-python-stomp-client-for-interaction-with-a-springboot-server-6acc00b90014
+
 
 
 # RabbitMQ docker image with STOMP plugin enable
@@ -82,6 +84,9 @@ docker container run -it --name rabbitmq-stomp -p 15672:15672 -p 5672:5672 -p 61
 - RabbitMQ Web UI: [localhost:15672](http://localhost:15672)
 - Credential RabbitMQ: `admin/admin`
 - Credential STOMP: `admin/admin`
+
+
+
 
 ### Exposed ports
 
