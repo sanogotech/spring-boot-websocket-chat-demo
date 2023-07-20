@@ -63,6 +63,8 @@ Now let us go over building a python client with the required springboot server 
 
 * https://srinivas1996kumar.medium.com/a-python-stomp-client-for-interaction-with-a-springboot-server-6acc00b90014
 
+  ![IOT  RabbitMQ Stomp](https://github.com/sanogotech/spring-boot-websocket-chat-demo/blob/master/divers/rabbitStompWebJsIOT.png)
+
 
 
 # RabbitMQ docker image with STOMP plugin enable
